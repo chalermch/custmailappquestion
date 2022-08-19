@@ -34,7 +34,7 @@ public class CustomerMailApplication {
     public static void main(String[] args) {
         CustomerMailApplication app = new CustomerMailApplication();
         Scanner inp = new Scanner(System.in);
-        System.out.print("Please choose customer type 1. Regular, 2. Mountain, 3. Delinquent ");
+        System.out.print("Please choose customer type 1. Regular, 2. Mountain, 3. Delinquent \n");
         int type = inp.nextInt();
         switch(type) {
             case 1:
